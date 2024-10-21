@@ -9,7 +9,10 @@
 .table tbody tr {
     background-color: #f0f0f0;
 }
-
-body{
-    width: 600px;
+.card {
+    display: none;
+    width: 370px;
+    padding: 5px;
 }
+
+

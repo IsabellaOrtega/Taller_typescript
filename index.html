@@ -9,24 +9,40 @@
 </head>
 <body>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Channel</th>
-                <th scope="col">Seasons</th>
-            </tr>
-        </thead>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Channel</th>
+                            <th scope="col">Seasons</th>
+                        </tr>
+                    </thead>
 
-        <tbody id="serie"></tbody>
+                    <tbody id="serie"></tbody>
 
-    </table>
+                </table>
 
-    <p id="seasons-average">Seasons Average: </p>
-    
-    <script type="module" src="./scripts/Serie.js" ></script>
-    <script type="module" src="./scripts/dataSerie.js" ></script>
-    <script type="module" src="./scripts/main.js"></script>
+                <p id="seasons-average">Seasons Average: </p>
+            </div>
+
+            <div class="col">
+                <div class="card" >
+                    <img src="" class="card-img-top" alt="Imagen de la serie" id="cardImage">
+                    <div class="card-body">
+                        <h5 class="card-title" id="cardTitulo">CardName</h5>
+                        <p class="card-text" id="cardDescription">Description</p>
+                        <a href="" class="card-link" id="Serielink" target="_blank">Ver serie</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script type="module" src="./scripts/Serie.js" ></script>
+        <script type="module" src="./scripts/dataSerie.js" ></script>
+        <script type="module" src="./scripts/main.js"></script>
 </body>
 </html>
